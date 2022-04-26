@@ -1,2 +1,2 @@
 # BerkeleySETI
-This is the repository for my SETI project that I am currently working on with Ann Marie Cody and Daniel Giles. It contains all my work that I've done since I started.
+This repository contains all my work for the project that I (Yifan Tong) am currently working on with Ann Marie Cody and Daniel Giles at SETI Institute, over the year of 2022.

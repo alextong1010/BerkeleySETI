@@ -1,0 +1,4 @@
+https://realpython.com/beautiful-soup-web-scraper-python/
+used this to learn how to scrape website for data
+
+there is 4584 EBs in the database

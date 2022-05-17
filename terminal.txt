@@ -1,0 +1,1039 @@
+        deleted:    Featuring_and_First_ML.ipynb
+        modified:   PhaseFold (untracked content)
+        modified:   README.md
+        deleted:    getting_data.ipynb
+        deleted:    listoferrors.csv
+        deleted:    listoftimes.csv
+        deleted:    listofvalues.csv
+        deleted:    sector_14_ebs_nonebs_features.csv
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .ipynb_checkpoints/LICENSE-checkpoint
+        Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+        Messy-Notebooks/
+        inputdata/.ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv
+        inputdata/.ipynb_checkpoints/X-checkpoint.csv
+        inputdata/.ipynb_checkpoints/X_test_4-26-22-checkpoint.csv
+        inputdata/.ipynb_checkpoints/X_train_4-26-22-checkpoint.csv
+        inputdata/.ipynb_checkpoints/listoferrors-checkpoint.csv
+        inputdata/.ipynb_checkpoints/listoftimes-checkpoint.csv
+        inputdata/.ipynb_checkpoints/listofvalues-checkpoint.csv
+        inputdata/.ipynb_checkpoints/y-checkpoint.csv
+        inputdata/.ipynb_checkpoints/y_test_4-26-22-checkpoint.csv
+        inputdata/.ipynb_checkpoints/y_train_4-26-22-checkpoint.csv
+        inputdata/1y_train_4-26-22.csv
+        inputdata/X.csv
+        inputdata/listoferrors.csv
+        inputdata/listoftimes.csv
+        inputdata/listofvalues.csv
+        inputdata/y.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) jupyter@yifan:~/BerkeleySETI$ ls
+Backup   Messy-Notebooks  README.md  inputdata      notes.txt
+LICENSE  PhaseFold        data       messingaround  work.txt
+(base) jupyter@yifan:~/BerkeleySETI$ git add .
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .ipynb_checkpoints/LICENSE-checkpoint
+        modified:   .ipynb_checkpoints/README-checkpoint.md
+        deleted:    .ipynb_checkpoints/sector_14_ebs_nonebs_features-checkpoint.csv
+        new file:   Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+        deleted:    Classifiers_experiment.ipynb
+        new file:   Messy-Notebooks/.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/SVC-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/getting_data-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/getting_data-checkpoint.ipynb
+        new file:   Messy-Notebooks/Classifiers_experiment.ipynb
+        renamed:    Featuring_and_First_ML.ipynb -> Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   Messy-Notebooks/SVC.ipynb
+        renamed:    getting_data.ipynb -> Messy-Notebooks/getting_data.ipynb
+        modified:   README.md
+        new file:   inputdata/.ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_train_4-26-22-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoferrors-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoferrors-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoftimes-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoftimes-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listofvalues-checkpoint.csv -> inputdata/.ipynb_checkpoints/listofvalues-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/1y_train_4-26-22.csv
+        new file:   inputdata/X.csv
+        renamed:    listoferrors.csv -> inputdata/listoferrors.csv
+        renamed:    listoftimes.csv -> inputdata/listoftimes.csv
+        renamed:    listofvalues.csv -> inputdata/listofvalues.csv
+        new file:   inputdata/y.csv
+        deleted:    sector_14_ebs_nonebs_features.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI$ git add PhaseFold
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .ipynb_checkpoints/LICENSE-checkpoint
+        modified:   .ipynb_checkpoints/README-checkpoint.md
+        deleted:    .ipynb_checkpoints/sector_14_ebs_nonebs_features-checkpoint.csv
+        new file:   Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+        deleted:    Classifiers_experiment.ipynb
+        new file:   Messy-Notebooks/.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/SVC-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/getting_data-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/getting_data-checkpoint.ipynb
+        new file:   Messy-Notebooks/Classifiers_experiment.ipynb
+        renamed:    Featuring_and_First_ML.ipynb -> Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   Messy-Notebooks/SVC.ipynb
+        renamed:    getting_data.ipynb -> Messy-Notebooks/getting_data.ipynb
+        modified:   README.md
+        new file:   inputdata/.ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_train_4-26-22-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoferrors-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoferrors-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoftimes-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoftimes-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listofvalues-checkpoint.csv -> inputdata/.ipynb_checkpoints/listofvalues-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/1y_train_4-26-22.csv
+        new file:   inputdata/X.csv
+        renamed:    listoferrors.csv -> inputdata/listoferrors.csv
+        renamed:    listoftimes.csv -> inputdata/listoftimes.csv
+        renamed:    listofvalues.csv -> inputdata/listofvalues.csv
+        new file:   inputdata/y.csv
+        deleted:    sector_14_ebs_nonebs_features.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI$ cd PhaseFold/
+(base) jupyter@yifan:~/BerkeleySETI/PhaseFold$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .ipynb_checkpoints/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) jupyter@yifan:~/BerkeleySETI/PhaseFold$ cd ..
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .ipynb_checkpoints/LICENSE-checkpoint
+        modified:   .ipynb_checkpoints/README-checkpoint.md
+        deleted:    .ipynb_checkpoints/sector_14_ebs_nonebs_features-checkpoint.csv
+        new file:   Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+        deleted:    Classifiers_experiment.ipynb
+        new file:   Messy-Notebooks/.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/SVC-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/getting_data-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/getting_data-checkpoint.ipynb
+        new file:   Messy-Notebooks/Classifiers_experiment.ipynb
+        renamed:    Featuring_and_First_ML.ipynb -> Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   Messy-Notebooks/SVC.ipynb
+        renamed:    getting_data.ipynb -> Messy-Notebooks/getting_data.ipynb
+        modified:   README.md
+        new file:   inputdata/.ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_train_4-26-22-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoferrors-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoferrors-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoftimes-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoftimes-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listofvalues-checkpoint.csv -> inputdata/.ipynb_checkpoints/listofvalues-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/1y_train_4-26-22.csv
+        new file:   inputdata/X.csv
+        renamed:    listoferrors.csv -> inputdata/listoferrors.csv
+        renamed:    listoftimes.csv -> inputdata/listoftimes.csv
+        renamed:    listofvalues.csv -> inputdata/listofvalues.csv
+        new file:   inputdata/y.csv
+        deleted:    sector_14_ebs_nonebs_features.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI$ git push
+Enumerating objects: 115, done.
+Counting objects: 100% (115/115), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (113/113), done.
+Writing objects: 100% (114/114), 327.34 MiB | 2.84 MiB/s, done.
+Total 114 (delta 39), reused 0 (delta 0)
+remote: Resolving deltas: 100% (39/39), done.
+remote: error: Trace: 80c6e5076b59ff06b565d6671fe041b4e9ab877c8c9ecd26300d8b0364edd480
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File .ipynb_checkpoints/listoferrors-checkpoint.csv is 244.76 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File .ipynb_checkpoints/listoftimes-checkpoint.csv is 249.52 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File .ipynb_checkpoints/listofvalues-checkpoint.csv is 250.27 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To github.com:yifantong1010/BerkeleySETI.git
+ ! [remote rejected] Update5/16 -> Update5/16 (pre-receive hook declined)
+error: failed to push some refs to 'git@github.com:yifantong1010/BerkeleySETI.git'
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .ipynb_checkpoints/LICENSE-checkpoint
+        modified:   .ipynb_checkpoints/README-checkpoint.md
+        deleted:    .ipynb_checkpoints/sector_14_ebs_nonebs_features-checkpoint.csv
+        new file:   Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+        deleted:    Classifiers_experiment.ipynb
+        new file:   Messy-Notebooks/.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/SVC-checkpoint.ipynb
+        renamed:    .ipynb_checkpoints/getting_data-checkpoint.ipynb -> Messy-Notebooks/.ipynb_checkpoints/getting_data-checkpoint.ipynb
+        new file:   Messy-Notebooks/Classifiers_experiment.ipynb
+        renamed:    Featuring_and_First_ML.ipynb -> Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   Messy-Notebooks/SVC.ipynb
+        renamed:    getting_data.ipynb -> Messy-Notebooks/getting_data.ipynb
+        modified:   README.md
+        new file:   inputdata/.ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/X_train_4-26-22-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoferrors-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoferrors-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listoftimes-checkpoint.csv -> inputdata/.ipynb_checkpoints/listoftimes-checkpoint.csv
+        renamed:    .ipynb_checkpoints/listofvalues-checkpoint.csv -> inputdata/.ipynb_checkpoints/listofvalues-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_test_4-26-22-checkpoint.csv
+        new file:   inputdata/.ipynb_checkpoints/y_train_4-26-22-checkpoint.csv
+        new file:   inputdata/1y_train_4-26-22.csv
+        new file:   inputdata/X.csv
+        renamed:    listoferrors.csv -> inputdata/listoferrors.csv
+        renamed:    listoftimes.csv -> inputdata/listoftimes.csv
+        renamed:    listofvalues.csv -> inputdata/listofvalues.csv
+        new file:   inputdata/y.csv
+        deleted:    sector_14_ebs_nonebs_features.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI$ cd inputdata
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ ls
+1y_train_4-26-22.csv  allsectorstmclebs.csv     listoferrors.csv    tmcl_nonebs_by_sector
+X.csv                 allsectorstmclnonebs.csv  listoftimes.csv     y.csv
+X_test_4-26-22.csv    features.csv              listofvalues.csv    y_test_4-26-22.csv
+X_train_4-26-22.csv   fulldataset.csv           tmcl_ebs_by_sector  y_train_4-26-22.csv
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ ls -l
+total 788952
+-rw-r--r-- 1 jupyter jupyter     45009 Apr 28 23:01 1y_train_4-26-22.csv
+-rw-r--r-- 1 jupyter jupyter   7754359 May  7 20:51 X.csv
+-rw-r--r-- 1 jupyter jupyter   1550486 Apr 26 21:04 X_test_4-26-22.csv
+-rw-r--r-- 1 jupyter jupyter   6204537 Apr 26 21:04 X_train_4-26-22.csv
+-rw-r--r-- 1 jupyter jupyter   1101968 Apr 15 15:04 allsectorstmclebs.csv
+-rw-r--r-- 1 jupyter jupyter    681744 Apr 15 15:06 allsectorstmclnonebs.csv
+-rw-r--r-- 1 jupyter jupyter   7752738 Apr 19 03:17 features.csv
+-rw-r--r-- 1 jupyter jupyter   1783655 Apr 15 15:07 fulldataset.csv
+-rw-r--r-- 1 jupyter jupyter 256650629 Apr 17 04:38 listoferrors.csv
+-rw-r--r-- 1 jupyter jupyter 261644243 Apr 17 04:33 listoftimes.csv
+-rw-r--r-- 1 jupyter jupyter 262429253 Apr 17 04:36 listofvalues.csv
+drwxr-xr-x 3 jupyter jupyter      4096 Apr 13 23:23 tmcl_ebs_by_sector
+drwxr-xr-x 3 jupyter jupyter      4096 Apr 13 23:25 tmcl_nonebs_by_sector
+-rw-r--r-- 1 jupyter jupyter    127237 May  7 20:51 y.csv
+-rw-r--r-- 1 jupyter jupyter     25441 Apr 26 21:04 y_test_4-26-22.csv
+-rw-r--r-- 1 jupyter jupyter    101803 Apr 26 21:04 y_train_4-26-22.csv
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ cd .ipynb_checkpoints/
+(base) jupyter@yifan:~/BerkeleySETI/inputdata/.ipynb_checkpoints$ ls
+1y_train_4-26-22-checkpoint.csv      fulldataset-checkpoint.csv
+X-checkpoint.csv                     listoferrors-checkpoint.csv
+X_test_4-26-22-checkpoint.csv        listoftimes-checkpoint.csv
+X_train_4-26-22-checkpoint.csv       listofvalues-checkpoint.csv
+allsectorstmclebs-checkpoint.csv     y-checkpoint.csv
+allsectorstmclnonebs-checkpoint.csv  y_test_4-26-22-checkpoint.csv
+features-checkpoint.csv              y_train_4-26-22-checkpoint.csv
+(base) jupyter@yifan:~/BerkeleySETI/inputdata/.ipynb_checkpoints$ cd ..
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ rm -r .ipynb_checkpoints/
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   ../.ipynb_checkpoints/LICENSE-checkpoint
+        modified:   ../.ipynb_checkpoints/README-checkpoint.md
+        deleted:    ../.ipynb_checkpoints/sector_14_ebs_nonebs_features-checkpoint.csv
+        new file:   ../Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+        deleted:    ../Classifiers_experiment.ipynb
+        new file:   ../Messy-Notebooks/.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb
+        renamed:    ../.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb -> ../Messy-Notebooks/.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb
+        renamed:    ../.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb -> ../Messy-Notebooks/.ipynb_checkpoints/SVC-checkpoint.ipynb
+        renamed:    ../.ipynb_checkpoints/getting_data-checkpoint.ipynb -> ../Messy-Notebooks/.ipynb_checkpoints/getting_data-checkpoint.ipynb
+        new file:   ../Messy-Notebooks/Classifiers_experiment.ipynb
+        renamed:    ../Featuring_and_First_ML.ipynb -> ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   ../Messy-Notebooks/SVC.ipynb
+        renamed:    ../getting_data.ipynb -> ../Messy-Notebooks/getting_data.ipynb
+        modified:   ../README.md
+        new file:   .ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv
+        new file:   .ipynb_checkpoints/X-checkpoint.csv
+        new file:   .ipynb_checkpoints/X_test_4-26-22-checkpoint.csv
+        new file:   .ipynb_checkpoints/X_train_4-26-22-checkpoint.csv
+        renamed:    ../.ipynb_checkpoints/listoferrors-checkpoint.csv -> .ipynb_checkpoints/listoferrors-checkpoint.csv
+        renamed:    ../.ipynb_checkpoints/listoftimes-checkpoint.csv -> .ipynb_checkpoints/listoftimes-checkpoint.csv
+        renamed:    ../.ipynb_checkpoints/listofvalues-checkpoint.csv -> .ipynb_checkpoints/listofvalues-checkpoint.csv
+        new file:   .ipynb_checkpoints/y-checkpoint.csv
+        new file:   .ipynb_checkpoints/y_test_4-26-22-checkpoint.csv
+        new file:   .ipynb_checkpoints/y_train_4-26-22-checkpoint.csv
+        new file:   1y_train_4-26-22.csv
+        new file:   X.csv
+        renamed:    ../listoferrors.csv -> listoferrors.csv
+        renamed:    ../listoftimes.csv -> listoftimes.csv
+        renamed:    ../listofvalues.csv -> listofvalues.csv
+        new file:   y.csv
+        deleted:    ../sector_14_ebs_nonebs_features.csv
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../PhaseFold (untracked content)
+        deleted:    .ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv
+        deleted:    .ipynb_checkpoints/X-checkpoint.csv
+        deleted:    .ipynb_checkpoints/X_test_4-26-22-checkpoint.csv
+        deleted:    .ipynb_checkpoints/X_train_4-26-22-checkpoint.csv
+        deleted:    .ipynb_checkpoints/allsectorstmclebs-checkpoint.csv
+        deleted:    .ipynb_checkpoints/allsectorstmclnonebs-checkpoint.csv
+        deleted:    .ipynb_checkpoints/features-checkpoint.csv
+        deleted:    .ipynb_checkpoints/fulldataset-checkpoint.csv
+        deleted:    .ipynb_checkpoints/listoferrors-checkpoint.csv
+        deleted:    .ipynb_checkpoints/listoftimes-checkpoint.csv
+        deleted:    .ipynb_checkpoints/listofvalues-checkpoint.csv
+        deleted:    .ipynb_checkpoints/y-checkpoint.csv
+        deleted:    .ipynb_checkpoints/y_test_4-26-22-checkpoint.csv
+        deleted:    .ipynb_checkpoints/y_train_4-26-22-checkpoint.csv
+
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ 
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ 
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ 
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ 
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git rm .ipynb_checkpoints
+fatal: not removing '.ipynb_checkpoints' recursively without -r
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git rm -r .ipynb_checkpoints
+rm 'inputdata/.ipynb_checkpoints/1y_train_4-26-22-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/X-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/X_test_4-26-22-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/X_train_4-26-22-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/allsectorstmclebs-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/allsectorstmclnonebs-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/features-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/fulldataset-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/listoferrors-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/listoftimes-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/listofvalues-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/y-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/y_test_4-26-22-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/y_train_4-26-22-checkpoint.csv'
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   ../.ipynb_checkpoints/LICENSE-checkpoint
+        modified:   ../.ipynb_checkpoints/README-checkpoint.md
+        deleted:    ../.ipynb_checkpoints/listoferrors-checkpoint.csv
+        deleted:    ../.ipynb_checkpoints/listoftimes-checkpoint.csv
+        deleted:    ../.ipynb_checkpoints/listofvalues-checkpoint.csv
+        deleted:    ../.ipynb_checkpoints/sector_14_ebs_nonebs_features-checkpoint.csv
+        new file:   ../Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+        deleted:    ../Classifiers_experiment.ipynb
+        new file:   ../Messy-Notebooks/.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb
+        renamed:    ../.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb -> ../Messy-Notebooks/.ipynb_checkpoints/Featuring_and_First_ML-checkpoint.ipynb
+        renamed:    ../.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb -> ../Messy-Notebooks/.ipynb_checkpoints/SVC-checkpoint.ipynb
+        renamed:    ../.ipynb_checkpoints/getting_data-checkpoint.ipynb -> ../Messy-Notebooks/.ipynb_checkpoints/getting_data-checkpoint.ipynb
+        new file:   ../Messy-Notebooks/Classifiers_experiment.ipynb
+        renamed:    ../Featuring_and_First_ML.ipynb -> ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   ../Messy-Notebooks/SVC.ipynb
+        renamed:    ../getting_data.ipynb -> ../Messy-Notebooks/getting_data.ipynb
+        modified:   ../README.md
+        deleted:    .ipynb_checkpoints/allsectorstmclebs-checkpoint.csv
+        deleted:    .ipynb_checkpoints/allsectorstmclnonebs-checkpoint.csv
+        deleted:    .ipynb_checkpoints/features-checkpoint.csv
+        deleted:    .ipynb_checkpoints/fulldataset-checkpoint.csv
+        new file:   1y_train_4-26-22.csv
+        new file:   X.csv
+        renamed:    ../listoferrors.csv -> listoferrors.csv
+        renamed:    ../listoftimes.csv -> listoftimes.csv
+        renamed:    ../listofvalues.csv -> listofvalues.csv
+        new file:   y.csv
+        deleted:    ../sector_14_ebs_nonebs_features.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git commit -m "5/16 commit" .
+[Update5/16 9c9a5ae] 5/16 commit
+ 10 files changed, 79527 insertions(+), 41327 deletions(-)
+ delete mode 100644 inputdata/.ipynb_checkpoints/allsectorstmclebs-checkpoint.csv
+ delete mode 100644 inputdata/.ipynb_checkpoints/allsectorstmclnonebs-checkpoint.csv
+ delete mode 100644 inputdata/.ipynb_checkpoints/features-checkpoint.csv
+ delete mode 100644 inputdata/.ipynb_checkpoints/fulldataset-checkpoint.csv
+ create mode 100644 inputdata/1y_train_4-26-22.csv
+ create mode 100644 inputdata/X.csv
+ create mode 100644 inputdata/listoferrors.csv
+ create mode 100644 inputdata/listoftimes.csv
+ create mode 100644 inputdata/listofvalues.csv
+ create mode 100644 inputdata/y.csv
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ cd ..
+(base) jupyter@yifan:~/BerkeleySETI$ git commit -m "5/16 commit" .
+[Update5/16 3b3840e] 5/16 commit
+ 21 files changed, 20304 insertions(+), 93265 deletions(-)
+ create mode 100644 .ipynb_checkpoints/LICENSE-checkpoint
+ delete mode 100644 .ipynb_checkpoints/listoferrors-checkpoint.csv
+ delete mode 100644 .ipynb_checkpoints/listoftimes-checkpoint.csv
+ delete mode 100644 .ipynb_checkpoints/listofvalues-checkpoint.csv
+ delete mode 100644 .ipynb_checkpoints/sector_14_ebs_nonebs_features-checkpoint.csv
+ create mode 100644 Backup/.ipynb_checkpoints/featureswithchannel-checkpoint.csv
+ delete mode 100644 Classifiers_experiment.ipynb
+ create mode 100644 Messy-Notebooks/.ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb
+ rename {.ipynb_checkpoints => Messy-Notebooks/.ipynb_checkpoints}/Featuring_and_First_ML-checkpoint.ipynb (88%)
+ rename .ipynb_checkpoints/Classifiers_experiment-checkpoint.ipynb => Messy-Notebooks/.ipynb_checkpoints/SVC-checkpoint.ipynb (100%)
+ rename {.ipynb_checkpoints => Messy-Notebooks/.ipynb_checkpoints}/getting_data-checkpoint.ipynb (87%)
+ create mode 100644 Messy-Notebooks/Classifiers_experiment.ipynb
+ rename Featuring_and_First_ML.ipynb => Messy-Notebooks/Featuring_and_First_ML.ipynb (87%)
+ create mode 100644 Messy-Notebooks/SVC.ipynb
+ rename getting_data.ipynb => Messy-Notebooks/getting_data.ipynb (72%)
+ delete mode 100644 listoferrors.csv
+ delete mode 100644 listoftimes.csv
+ delete mode 100644 listofvalues.csv
+ delete mode 100644 sector_14_ebs_nonebs_features.csv
+(base) jupyter@yifan:~/BerkeleySETI$ ls
+Backup   Messy-Notebooks  README.md  inputdata      notes.txt
+LICENSE  PhaseFold        data       messingaround  work.txt
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) jupyter@yifan:~/BerkeleySETI$ git push
+Enumerating objects: 135, done.
+Counting objects: 100% (135/135), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (133/133), done.
+Writing objects: 100% (134/134), 325.68 MiB | 2.86 MiB/s, done.
+Total 134 (delta 57), reused 0 (delta 0)
+remote: Resolving deltas: 100% (57/57), done.
+remote: error: Trace: d2f38ab9b3a19128004a207d05feafa7bea5023b5f0ff0d6f1e738e754874b89
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File inputdata/listoferrors.csv is 244.76 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File inputdata/listoftimes.csv is 249.52 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File inputdata/listofvalues.csv is 250.27 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To github.com:yifantong1010/BerkeleySETI.git
+ ! [remote rejected] Update5/16 -> Update5/16 (pre-receive hook declined)
+error: failed to push some refs to 'git@github.com:yifantong1010/BerkeleySETI.git'
+(base) jupyter@yifan:~/BerkeleySETI$ cd ..
+(base) jupyter@yifan:~$ cd BerkeleySETI/inputdata
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        modified:   ../PhaseFold (untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .ipynb_checkpoints/
+        listoferrorspt1.csv
+        listoferrorspt2.csv
+        listoferrorspt3.csv
+        listoferrorspt4.csv
+        listoferrorspt5.csv
+        listoferrorspt6.csv
+        listoferrorstotal.csv
+        listoftimespt1.csv
+        listoftimespt2.csv
+        listoftimespt3.csv
+        listoftimespt4.csv
+        listoftimespt5.csv
+        listoftimespt6.csv
+        listoftimestotal.csv
+        listofvaluespt1.csv
+        listofvaluespt2.csv
+        listofvaluespt3.csv
+        listofvaluespt4.csv
+        listofvaluespt5.csv
+        listofvaluespt6.csv
+        listofvaluestotal.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git add .
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .ipynb_checkpoints/fulldataset-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoferrorspt1-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoftimespt1-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoftimespt5-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoftimespt6-checkpoint.csv
+        new file:   listoferrorspt1.csv
+        new file:   listoferrorspt2.csv
+        new file:   listoferrorspt3.csv
+        new file:   listoferrorspt4.csv
+        new file:   listoferrorspt5.csv
+        new file:   listoferrorspt6.csv
+        new file:   listoferrorstotal.csv
+        new file:   listoftimespt1.csv
+        new file:   listoftimespt2.csv
+        new file:   listoftimespt3.csv
+        new file:   listoftimespt4.csv
+        new file:   listoftimespt5.csv
+        new file:   listoftimespt6.csv
+        new file:   listoftimestotal.csv
+        new file:   listofvaluespt1.csv
+        new file:   listofvaluespt2.csv
+        new file:   listofvaluespt3.csv
+        new file:   listofvaluespt4.csv
+        new file:   listofvaluespt5.csv
+        new file:   listofvaluespt6.csv
+        new file:   listofvaluestotal.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        modified:   ../PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git rm -r .ipynb_checkpoints
+error: the following files have changes staged in the index:
+    inputdata/.ipynb_checkpoints/fulldataset-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoferrorspt1-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoftimespt1-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoftimespt5-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoftimespt6-checkpoint.csv
+(use --cached to keep the file, or -f to force removal)
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .ipynb_checkpoints/fulldataset-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoferrorspt1-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoftimespt1-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoftimespt5-checkpoint.csv
+        new file:   .ipynb_checkpoints/listoftimespt6-checkpoint.csv
+        new file:   listoferrorspt1.csv
+        new file:   listoferrorspt2.csv
+        new file:   listoferrorspt3.csv
+        new file:   listoferrorspt4.csv
+        new file:   listoferrorspt5.csv
+        new file:   listoferrorspt6.csv
+        new file:   listoferrorstotal.csv
+        new file:   listoftimespt1.csv
+        new file:   listoftimespt2.csv
+        new file:   listoftimespt3.csv
+        new file:   listoftimespt4.csv
+        new file:   listoftimespt5.csv
+        new file:   listoftimespt6.csv
+        new file:   listoftimestotal.csv
+        new file:   listofvaluespt1.csv
+        new file:   listofvaluespt2.csv
+        new file:   listofvaluespt3.csv
+        new file:   listofvaluespt4.csv
+        new file:   listofvaluespt5.csv
+        new file:   listofvaluespt6.csv
+        new file:   listofvaluestotal.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        modified:   ../PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git rm -r .ipynb_checkpoints
+error: the following files have changes staged in the index:
+    inputdata/.ipynb_checkpoints/fulldataset-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoferrorspt1-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoftimespt1-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoftimespt5-checkpoint.csv
+    inputdata/.ipynb_checkpoints/listoftimespt6-checkpoint.csv
+(use --cached to keep the file, or -f to force removal)
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git rm -r .ipynb_checkpoints -f
+rm 'inputdata/.ipynb_checkpoints/fulldataset-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/listoferrorspt1-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/listoftimespt1-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/listoftimespt5-checkpoint.csv'
+rm 'inputdata/.ipynb_checkpoints/listoftimespt6-checkpoint.csv'
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   listoferrorspt1.csv
+        new file:   listoferrorspt2.csv
+        new file:   listoferrorspt3.csv
+        new file:   listoferrorspt4.csv
+        new file:   listoferrorspt5.csv
+        new file:   listoferrorspt6.csv
+        new file:   listoferrorstotal.csv
+        new file:   listoftimespt1.csv
+        new file:   listoftimespt2.csv
+        new file:   listoftimespt3.csv
+        new file:   listoftimespt4.csv
+        new file:   listoftimespt5.csv
+        new file:   listoftimespt6.csv
+        new file:   listoftimestotal.csv
+        new file:   listofvaluespt1.csv
+        new file:   listofvaluespt2.csv
+        new file:   listofvaluespt3.csv
+        new file:   listofvaluespt4.csv
+        new file:   listofvaluespt5.csv
+        new file:   listofvaluespt6.csv
+        new file:   listofvaluestotal.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        modified:   ../PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git rm -r listoferrors.csv
+rm 'inputdata/listoferrors.csv'
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git checkout HEAD BerkeleySETI/inputdata/listoferrors.csv
+fatal: Unable to create '/home/jupyter/BerkeleySETI/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git reset -- path/to/file
+Unstaged changes after reset:
+M       Messy-Notebooks/Featuring_and_First_ML.ipynb
+M       notes.txt
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git reset -- BerkeleySETI/inputdata
+Unstaged changes after reset:
+M       Messy-Notebooks/Featuring_and_First_ML.ipynb
+M       notes.txt
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git checkout -- path/to/file
+error: pathspec 'path/to/file' did not match any file(s) known to git
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git checkout -- BerkeleySETI/inputdata
+error: pathspec 'BerkeleySETI/inputdata' did not match any file(s) known to git
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   listoferrorspt1.csv
+        new file:   listoferrorspt2.csv
+        new file:   listoferrorspt3.csv
+        new file:   listoferrorspt4.csv
+        new file:   listoferrorspt5.csv
+        new file:   listoferrorspt6.csv
+        renamed:    listoferrors.csv -> listoferrorstotal.csv
+        new file:   listoftimespt1.csv
+        new file:   listoftimespt2.csv
+        new file:   listoftimespt3.csv
+        new file:   listoftimespt4.csv
+        new file:   listoftimespt5.csv
+        new file:   listoftimespt6.csv
+        new file:   listoftimestotal.csv
+        new file:   listofvaluespt1.csv
+        new file:   listofvaluespt2.csv
+        new file:   listofvaluespt3.csv
+        new file:   listofvaluespt4.csv
+        new file:   listofvaluespt5.csv
+        new file:   listofvaluespt6.csv
+        new file:   listofvaluestotal.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        modified:   ../PhaseFold (untracked content)
+        modified:   ../notes.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        listoferrors.csv
+
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git add .
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   listoferrors.csv
+        new file:   listoferrorspt1.csv
+        new file:   listoferrorspt2.csv
+        new file:   listoferrorspt3.csv
+        new file:   listoferrorspt4.csv
+        new file:   listoferrorspt5.csv
+        new file:   listoferrorspt6.csv
+        new file:   listoferrorstotal.csv
+        new file:   listoftimespt1.csv
+        new file:   listoftimespt2.csv
+        new file:   listoftimespt3.csv
+        new file:   listoftimespt4.csv
+        new file:   listoftimespt5.csv
+        new file:   listoftimespt6.csv
+        new file:   listoftimestotal.csv
+        new file:   listofvaluespt1.csv
+        new file:   listofvaluespt2.csv
+        new file:   listofvaluespt3.csv
+        new file:   listofvaluespt4.csv
+        new file:   listofvaluespt5.csv
+        new file:   listofvaluespt6.csv
+        new file:   listofvaluestotal.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../Messy-Notebooks/Featuring_and_First_ML.ipynb
+        modified:   ../PhaseFold (untracked content)
+        modified:   ../notes.txt
+
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ touch .gitignore
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ .gitignore
+bash: .gitignore: command not found
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ ..
+bash: ..: command not found
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ ../
+bash: ../: Is a directory
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ ..
+bash: ..: command not found
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ ...
+bash: ...: command not found
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ cd ..
+(base) jupyter@yifan:~/BerkeleySETI$ .ipynb_checkpoints
+bash: .ipynb_checkpoints: command not found
+(base) jupyter@yifan:~/BerkeleySETI$ touch .gitignore
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   inputdata/listoferrors.csv
+        new file:   inputdata/listoferrorspt1.csv
+        new file:   inputdata/listoferrorspt2.csv
+        new file:   inputdata/listoferrorspt3.csv
+        new file:   inputdata/listoferrorspt4.csv
+        new file:   inputdata/listoferrorspt5.csv
+        new file:   inputdata/listoferrorspt6.csv
+        new file:   inputdata/listoferrorstotal.csv
+        new file:   inputdata/listoftimespt1.csv
+        new file:   inputdata/listoftimespt2.csv
+        new file:   inputdata/listoftimespt3.csv
+        new file:   inputdata/listoftimespt4.csv
+        new file:   inputdata/listoftimespt5.csv
+        new file:   inputdata/listoftimespt6.csv
+        new file:   inputdata/listoftimestotal.csv
+        new file:   inputdata/listofvaluespt1.csv
+        new file:   inputdata/listofvaluespt2.csv
+        new file:   inputdata/listofvaluespt3.csv
+        new file:   inputdata/listofvaluespt4.csv
+        new file:   inputdata/listofvaluespt5.csv
+        new file:   inputdata/listofvaluespt6.csv
+        new file:   inputdata/listofvaluestotal.csv
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   Messy-Notebooks/Featuring_and_First_ML.ipynb
+        modified:   PhaseFold (untracked content)
+        modified:   notes.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        inputdata/.gitignore
+
+(base) jupyter@yifan:~/BerkeleySETI$ git add ..
+fatal: ..: '..' is outside repository
+(base) jupyter@yifan:~/BerkeleySETI$ git add .
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+        modified:   Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   inputdata/.gitignore
+        modified:   inputdata/listoferrors.csv
+        new file:   inputdata/listoferrorspt1.csv
+        new file:   inputdata/listoferrorspt2.csv
+        new file:   inputdata/listoferrorspt3.csv
+        new file:   inputdata/listoferrorspt4.csv
+        new file:   inputdata/listoferrorspt5.csv
+        new file:   inputdata/listoferrorspt6.csv
+        new file:   inputdata/listoferrorstotal.csv
+        new file:   inputdata/listoftimespt1.csv
+        new file:   inputdata/listoftimespt2.csv
+        new file:   inputdata/listoftimespt3.csv
+        new file:   inputdata/listoftimespt4.csv
+        new file:   inputdata/listoftimespt5.csv
+        new file:   inputdata/listoftimespt6.csv
+        new file:   inputdata/listoftimestotal.csv
+        new file:   inputdata/listofvaluespt1.csv
+        new file:   inputdata/listofvaluespt2.csv
+        new file:   inputdata/listofvaluespt3.csv
+        new file:   inputdata/listofvaluespt4.csv
+        new file:   inputdata/listofvaluespt5.csv
+        new file:   inputdata/listofvaluespt6.csv
+        new file:   inputdata/listofvaluestotal.csv
+        modified:   notes.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI$ git commit
+Use "fg" to return to nano.or to close the file... 
+
+[1]+  Stopped                 git commit
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+        modified:   Messy-Notebooks/Featuring_and_First_ML.ipynb
+        new file:   inputdata/.gitignore
+        modified:   inputdata/listoferrors.csv
+        new file:   inputdata/listoferrorspt1.csv
+        new file:   inputdata/listoferrorspt2.csv
+        new file:   inputdata/listoferrorspt3.csv
+        new file:   inputdata/listoferrorspt4.csv
+        new file:   inputdata/listoferrorspt5.csv
+        new file:   inputdata/listoferrorspt6.csv
+        new file:   inputdata/listoferrorstotal.csv
+        new file:   inputdata/listoftimespt1.csv
+        new file:   inputdata/listoftimespt2.csv
+        new file:   inputdata/listoftimespt3.csv
+        new file:   inputdata/listoftimespt4.csv
+        new file:   inputdata/listoftimespt5.csv
+        new file:   inputdata/listoftimespt6.csv
+        new file:   inputdata/listoftimestotal.csv
+        new file:   inputdata/listofvaluespt1.csv
+        new file:   inputdata/listofvaluespt2.csv
+        new file:   inputdata/listofvaluespt3.csv
+        new file:   inputdata/listofvaluespt4.csv
+        new file:   inputdata/listofvaluespt5.csv
+        new file:   inputdata/listofvaluespt6.csv
+        new file:   inputdata/listofvaluestotal.csv
+        modified:   notes.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+(base) jupyter@yifan:~/BerkeleySETI$ git commit -m "5/16 commit" .
+[Update5/16 aafebfc] 5/16 commit
+ 26 files changed, 96980 insertions(+), 13427 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 inputdata/.gitignore
+ create mode 100644 inputdata/listoferrorspt1.csv
+ create mode 100644 inputdata/listoferrorspt2.csv
+ create mode 100644 inputdata/listoferrorspt3.csv
+ create mode 100644 inputdata/listoferrorspt4.csv
+ create mode 100644 inputdata/listoferrorspt5.csv
+ create mode 100644 inputdata/listoferrorspt6.csv
+ create mode 100644 inputdata/listoferrorstotal.csv
+ create mode 100644 inputdata/listoftimespt1.csv
+ create mode 100644 inputdata/listoftimespt2.csv
+ create mode 100644 inputdata/listoftimespt3.csv
+ create mode 100644 inputdata/listoftimespt4.csv
+ create mode 100644 inputdata/listoftimespt5.csv
+ create mode 100644 inputdata/listoftimespt6.csv
+ create mode 100644 inputdata/listoftimestotal.csv
+ create mode 100644 inputdata/listofvaluespt1.csv
+ create mode 100644 inputdata/listofvaluespt2.csv
+ create mode 100644 inputdata/listofvaluespt3.csv
+ create mode 100644 inputdata/listofvaluespt4.csv
+ create mode 100644 inputdata/listofvaluespt5.csv
+ create mode 100644 inputdata/listofvaluespt6.csv
+ create mode 100644 inputdata/listofvaluestotal.csv
+(base) jupyter@yifan:~/BerkeleySETI$ git push
+Enumerating objects: 163, done.
+Counting objects: 100% (163/163), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (161/161), done.
+Writing objects: 100% (162/162), 798.52 MiB | 2.69 MiB/s, done.
+Total 162 (delta 62), reused 0 (delta 0)
+remote: Resolving deltas: 100% (62/62), done.
+remote: error: Trace: d6bd1a0f2c893dee3cec8504aa36605b77e80acfb99df28e13f47e4ad2dd83ed
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File inputdata/listoftimestotal.csv is 248.12 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File inputdata/listofvalues.csv is 250.27 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File inputdata/listofvaluestotal.csv is 249.10 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File inputdata/listoferrors.csv is 243.31 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File inputdata/listoferrors.csv is 244.76 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File inputdata/listoftimes.csv is 249.52 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To github.com:yifantong1010/BerkeleySETI.git
+ ! [remote rejected] Update5/16 -> Update5/16 (pre-receive hook declined)
+error: failed to push some refs to 'git@github.com:yifantong1010/BerkeleySETI.git'
+(base) jupyter@yifan:~/BerkeleySETI$ git status
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   PhaseFold (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) jupyter@yifan:~/BerkeleySETI$ ls
+Backup  LICENSE  Messy-Notebooks  PhaseFold  README.md  data  inputdata  messingaround  notes.txt  work.txt
+(base) jupyter@yifan:~/BerkeleySETI$ cd inputdata
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ touch .gitignore
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status --ignored
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../.gitignore
+        modified:   ../PhaseFold (untracked content)
+
+Ignored files:
+  (use "git add -f <file>..." to include in what will be committed)
+
+        ../.ipynb_checkpoints/.gitignore-checkpoint
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git add -f listoferrors.csv
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ git status --ignored
+On branch Update5/16
+Your branch is ahead of 'origin/Update5/16' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   ../.gitignore
+        modified:   ../PhaseFold (untracked content)
+
+Ignored files:
+  (use "git add -f <file>..." to include in what will be committed)
+
+        ../.ipynb_checkpoints/.gitignore-checkpoint
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) jupyter@yifan:~/BerkeleySETI/inputdata$ 

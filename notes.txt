@@ -1,0 +1,5 @@
+The list of ebs gotten from the long way contains 3859 ebs
+The list of ebs gotten from the best way contains 8574 ebs because there may be the same ticid from multiple sectors
+
+4/15 Created all dataset filepaths, and added a label for each EB or nonEB
+5/17 Update: listoferrors.csv is a copy of listoferrorstotal.csv, so if there is any mistakes between listoferrors.csv and the actual data, then that's where it came from. I accidentally deleted it.
